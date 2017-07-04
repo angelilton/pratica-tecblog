@@ -1,0 +1,104 @@
+/* limpar formatação padrão*/
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f3f3f3;
+}
+
+#navegacao{
+    background: #fff;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#area{
+    width: 720px;
+    margin: 0 auto;
+}
+
+#logo{
+    float: left;
+    color: #7c7c7c;
+    padding: 3px;
+}
+
+#menu{
+    float: right;
+    margin: 3px;
+    padding: 10px 0;
+}
+/*formatação dos link*?*/
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+/*link não visitado*/
+a:link{
+    color: #838383;
+}
+
+/*link visitado*/
+a:visited{
+    color: #838383;
+}
+
+/*link hover*/
+a:hover{
+    background: #b9c941;
+    color: #fff;
+}
+
+/*link ativo(clicado)*/
+a:active{
+    color: #535353;
+}
+
+/*classes*/
+.verde{
+    color: #3bb44f;
+}
+
+/* formatando post */
+#conteudo{
+    width: 720px;
+    margin: 60px auto 10px auto;
+}
+#post{
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.date-post{
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin: 5px 0 10px 0;
+    /*margin-top: 5px;
+    margin-bottom: 10px;*/
+    
+}
+
+.img-post{
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.autor{
+    color: #7c7c7c;
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+
